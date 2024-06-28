@@ -1,0 +1,9 @@
+<!--pages/cate/cate.wxml-->
+<!-- 绘制一个盒子，让盒子宽度占据屏幕一半 -->
+<navigation-bar title="商品分类" back="{{false}}" color="#00AF92" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    shangpinfenlei
+  </view>
+</scroll-view>
+

@@ -1,0 +1,39 @@
+/* pages/list/list.wxss */
+.good-hot{
+  background-color: #fff;
+  padding: 16rpx;
+  border-radius: 10rpx;
+  font-size: 24rpx;
+
+  .scroll-x{
+    width: 100%;
+    white-space: nowrap;
+
+    view{
+      display: inline-block;
+      width: 350rpx;
+      height: 520rpx;
+      margin-right: 16rpx;
+
+      .good-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      
+      text{
+        &:nth-of-type(1){
+          font-weight:bold;
+        }
+      }
+      image{
+        width: 100%;
+        height: 520rpx;
+      }
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+<!--index.wxml-->
+<navigation-bar title="粤子哥花店" back="{{false}}" color="black" background="pink"></navigation-bar>
+<!-- view 小程序提供的容器组件 -->
+
+<!-- 轮番图区域 -->
+<view class="swiper">
+  <swiper 
+    autoplay="true"
+    interval="2000" 
+    indicator-dots="true" 
+    circular="true"
+    indicator-color="#fff"
+    indicator-active-color="#f3514f"
+  >
+    <swiper-item>
+      <image src="/assets/鲜花广告/广告5.png" mode="" show-menu-by-longpress lazy-load ></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/鲜花广告/广告7.png" mode="" show-menu-by-longpress lazy-load ></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/鲜花广告/广告4.png" mode="" show-menu-by-longpress lazy-load ></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 公司信息 -->
+<view class="info">
+  <text><text class="iconfont icon-a-070_waisong"></text>同城配送</text>
+  <text><text class="iconfont icon-a-070_kuaidi"></text>重庆直发</text>
+  <text><text class="iconfont icon-a-070_fasong"></text>半小时达</text>
+  <text><text class="iconfont icon-a-070_dianzan"></text>满分服务</text>
+</view>  
+
+<!-- 商品导航 -->
+<view class="good-nav">
+  <view>
+    <navigator url="/pages/list/list">
+    <image src="/assets/商品导航/鲜花白圆.png" mode=""></image>
+    <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/list/list">
+    <image src="/assets/商品导航/鲜花白圆.png" mode=""></image>
+    <text>鲜花玫瑰</text>
+    </navigator>
+  </view><view>
+    <navigator url="/pages/list/list">
+    <image src="/assets/商品导航/鲜花白圆.png" mode=""></image>
+    <text>鲜花玫瑰</text>
+    </navigator>
+  </view><view>
+    <navigator url="/pages/list/list">
+    <image src="/assets/商品导航/鲜花白圆.png" mode=""></image>
+    <text>鲜花玫瑰</text>
+    </navigator>
+  </view><view>
+    <navigator url="/pages/list/list">
+    <image src="/assets/商品导航/鲜花白圆.png" mode=""></image>
+    <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+</view>
+
+<!-- 推荐商品 -->
+<view class="good-hot">
+  <scroll-view scroll-x class="scroll-x">
+    <view>
+      <view class="good-item">
+        <image src="/assets/鲜花/玫瑰1.png"></image>
+        <text>品种：鲜花玫瑰1</text>
+        <text>价格：52</text>
+      </view>
+    </view>
+    
+    <view>
+      <view class="good-item">
+        <image src="/assets/鲜花/玫瑰2.png"></image>
+        <text>品种：鲜花玫瑰2</text>
+        <text>价格：88</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/鲜花/向日葵.png"></image>
+        <text>品种：向日葵</text>
+        <text>价格：99</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/鲜花/雏菊.png"></image>
+        <text>品种：雏菊</text>
+        <text>价格：520</text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <!-- <image src="/assets/鲜花/郁金香.png"></image> -->
+        <image src="/assets/鲜花/郁金香.png"></image>
+        <text>品种：郁金香</text>
+        <text>价格：1314</text>
+      </view>
+    </view>
+  </scroll-view>
+
+
+</view>
+
+<!-- src：图片的资源地址 -->
+<!-- mode:图片缩放模式 -->
+<!-- show:长按显示菜单：转发，收藏，保存 -->
+<!-- lazy-load:懒加载,滑动到一定的距离展示图片 -->
+<!-- <image src="/assets/奶茶/coffee.png" mode="aspectFit" show-menu-by-longpress lazy-load ></image> -->
+
+<!-- user slect:长按选中文本 -->
+<!-- space: 显示连续空格 -->
+<!-- <text user-select space="ensp">我   是刘先粤</text> -->
+
+<!-- <navigator url="/pages/list/list?id=10&num=hua">到商品列表页面</navigator>
+<navigator url="/pages/cate/cate?id=10&num=hua" open-type="switchTab" >分类页面</navigator> -->
+<!-- navigate(上一级)和redirect（主页）:只能跳转到非tabar，不能跳转到tabar页面 --switchtab反过来;relaunch关闭所有页面并打开这个-->
+<!-- 
+<navigator url="/pages/list/list" open-type="navigate" >列表页面</navigator>  列表
+<navigator url="/pages/cate/cate" open-type="navigate" >分类页面</navigator>
+<navigator url="/pages/list/list" open-type="redirect" >列表页面</navigator>
+<navigator url="/pages/cate/cate" open-type="redirect" >分类页面</navigator>
+<navigator url="/pages/list/list" open-type="switchTab" >列表页面</navigator>
+<navigator url="/pages/cate/cate" open-type="switchTab" >分类页面</navigator>
+<navigator url="/pages/list/list" open-type="reLaunch" >列表页面</navigator>
+<navigator url="/pages/cate/cate" open-type="reLaunch" >分类页面</navigator> 分类-->
+
+<!-- 滚动效果 -->
+<!-- <scroll-view class="scroll-x" scroll-x>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</scroll-view> -->
+
+<!-- 纵向滚动 -->
+<!-- <scroll-view class="scroll-y" scroll-y>
+  <view>1</view>
+  <view>2</view>
+  <view>3</view>
+</scroll-view> -->

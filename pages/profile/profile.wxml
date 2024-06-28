@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    gouwuche 
+  </view>
+</scroll-view>

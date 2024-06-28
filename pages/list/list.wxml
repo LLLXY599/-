@@ -1,0 +1,57 @@
+<!--pages/list/list.wxml-->
+<!--pages/profile/profile.wxml-->
+<navigation-bar title="梁海丹列表" back="{{true}}" color="#00AF92" background="#FFF"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    我爱梁海丹
+    （往右划）
+  </view>
+</scroll-view>
+
+<!-- 返回上一页 ,delta：返回的层级，默认是1-->
+<!-- <navigator open-type="navigateBack" delta="1">返回上一页</navigator> -->
+<view class="good-hot">
+  <scroll-view scroll-x class="scroll-x">
+    <view>
+      <view class="good-item">
+        <image src="/assets/梁海丹/乖乖1.png"></image>
+        <text>宝宝</text>
+        <text></text>
+      </view>
+    </view>
+    
+    <view>
+      <view class="good-item">
+        <image src="/assets/梁海丹/乖乖2.png"></image>
+        <text>乖乖</text>
+        <text></text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/梁海丹/乖乖3.png"></image>
+        <text>老婆</text>
+        <text></text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/梁海丹/乖乖4.png"></image>
+        <text>小傻逼</text>
+        <text></text>
+      </view>
+    </view>
+
+    <view>
+      <view class="good-item">
+        <image src="/assets/梁海丹/乖乖5.png"></image>
+        <text>小背时的</text>
+        <text></text>
+      </view>
+    </view>
+  </scroll-view>
+
+
+</view>
